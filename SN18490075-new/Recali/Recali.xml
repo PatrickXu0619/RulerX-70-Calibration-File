@@ -1,0 +1,172 @@
+<icon_data_format valuetype="" name="">
+  <parameter name="size">7680</parameter>
+  <parameter name="version">1</parameter>
+  <parameter name="layout">SUBCOMPONENT</parameter>
+  <component valuetype="Hi3D" name="Ranger3Range">
+    <parameter name="size">7680</parameter>
+    <parameter name="height">1</parameter>
+    <sensorrangetraits>
+      <parameter name="fov x0">0</parameter>
+      <parameter name="fov x1">2559</parameter>
+      <parameter name="fov x2">0</parameter>
+      <parameter name="fov x3">2559</parameter>
+      <parameter name="fov z0">1</parameter>
+      <parameter name="fov z1">1</parameter>
+      <parameter name="fov z2">13311</parameter>
+      <parameter name="fov z3">13311</parameter>
+      <parameter name="origin x">0</parameter>
+      <parameter name="scale x">1</parameter>
+      <parameter name="origin z">832.000000</parameter>
+      <parameter name="scale z">-0.062500</parameter>
+    </sensorrangetraits>
+    <subcomponent valuetype="WORD" name="Range">
+      <parameter name="size">5120</parameter>
+      <parameter name="width">2560</parameter>
+    </subcomponent>
+    <subcomponent valuetype="BYTE" name="Intensity">
+      <parameter name="size">2560</parameter>
+      <parameter name="width">2560</parameter>
+    </subcomponent>
+  </component>
+  <system_data>
+    <!-- *** Information gathered at acquisition start *** -->
+    <aquisition_start_time>2019-03-22T15:17:26.353</aquisition_start_time>
+    <gui_version>2.0.3.2055</gui_version>
+    <TLModelName>SICKGigEVisionTL</TLModelName>
+    <TLVersion>2.1.8.2.628</TLVersion>
+    <GevTLSubsystemInfo>filter driver: 2010802/0</GevTLSubsystemInfo>
+    <DeviceFirmwareVersion>FW:2.0.3.2055,FPGA:2.0.2165 (RELEASE 20181204T15:31Z+01 rev: 142a8bff0)</DeviceFirmwareVersion>
+    <DeviceVersion>1.0</DeviceVersion>
+    <DeviceModelName>Ranger3-60N GigE</DeviceModelName>
+    <DeviceManufacturerInfo>Type:V3DR3-60NE30001S03 Part:1098978</DeviceManufacturerInfo>
+    <DeviceSerialNumber>18490075</DeviceSerialNumber>
+    <DeviceCurrentBootPath>Primary</DeviceCurrentBootPath>
+    <DeviceNextBootPath>Secondary</DeviceNextBootPath>
+    <GevSCPSPacketSize>4144</GevSCPSPacketSize>
+    <GevStreamActiveEngine>SocketDriver</GevStreamActiveEngine>
+    <parameters format="Ranger3ParameterCSV">
+      #Version,1
+      #Root
+      #DeviceControl
+      DeviceScanType,Linescan3D
+      DeviceLinkThroughputLimit,118750000
+      DeviceLinkHeartbeatTimeout,3000
+      #ImageFormatControl
+      ExposureTime_RegionSelector_Region0,500
+      ExposureTime_RegionSelector_Region1,60
+      Width_RegionSelector_Region1,2560
+      Height_RegionSelector_Region1,832
+      Height_RegionSelector_Scan3dExtraction1,3200
+      OffsetX_RegionSelector_Region1,0
+      OffsetY_RegionSelector_Region1,0
+      ComponentEnable_ComponentSelector_Reflectance_RegionSelector_Scan3dExtraction1,1
+      PixelFormat_ComponentSelector_Range_RegionSelector_Scan3dExtraction1,Coord3D_C16
+      TestPattern_ComponentSelector_Intensity_RegionSelector_Region0,Off
+      TestPattern_ComponentSelector_Range_RegionSelector_Scan3dExtraction1,Off
+      #Scan3dControl
+      Scan3dExtractionMethod_Scan3dExtractionSelector_Scan3dExtraction1,Hi3D
+      WamSize_Scan3dExtractionSelector_Scan3dExtraction1,Normal
+      SearchMode3D_Scan3dExtractionSelector_Scan3dExtraction1,GlobalMax
+      RangeAxis_Scan3dExtractionSelector_Scan3dExtraction1,Reverse
+      DetectionThreshold_Scan3dExtractionSelector_Scan3dExtraction1,20
+      SearchDirection_Scan3dExtractionSelector_Scan3dExtraction1,Standard
+      ReflectanceFilter_Scan3dExtractionSelector_Scan3dExtraction1,1
+      #AcquisitionControl
+      AcquisitionMode,Continuous
+      AcquisitionFrameRate,20
+      AcquisitionLineRate,1000
+      TriggerMode_TriggerSelector_LineStart,On
+      TriggerMode_TriggerSelector_FrameStart,On
+      TriggerSource_TriggerSelector_LineStart,Encoder
+      TriggerSource_TriggerSelector_FrameStart,FrameTriggerInput
+      TriggerSource_TriggerSelector_ExposureStart,LineStart
+      TriggerActivation_TriggerSelector_FrameStart,RisingEdge
+      TriggerDelay_TriggerSelector_ExposureStart,0
+      MultiSlopeMode,Off
+      MultiSlopeKneePointCount,1
+      #DigitalIOControl
+      LineInverter_LineSelector_LaserStrobe1Output,0
+      LineInverter_LineSelector_LaserStrobe2Output,1
+      #TimerControl
+      TimerDuration_TimerSelector_LaserStrobe1Timer,4000
+      TimerDuration_TimerSelector_LaserStrobe2Timer,0
+      TimerDelay_TimerSelector_LaserStrobe1Timer,0
+      TimerDelay_TimerSelector_LaserStrobe2Timer,0
+      TimerTriggerSource_TimerSelector_LaserStrobe1Timer,LineTrigger
+      TimerTriggerSource_TimerSelector_LaserStrobe2Timer,Off
+      #EncoderControl
+      EncoderMode,FourPhase
+      EncoderDivider,10
+      EncoderOutputMode,DirectionDown
+      EncoderResetSource,Off
+      #EventControl
+      EventNotification_EventSelector_LogMessage,On
+      #LogMessageData
+      #EventTestData
+      #FileAccessControl
+      #ChunkDataControl
+      ChunkModeActive,0
+      #TestControl
+      #TransportLayerControl
+      #GigEVision
+      GevSCPD,0
+      #Capabilities
+      #FirmwareUpdate
+      #FrameBufferStatus
+      #DescramblerStatus
+      #PostProcessingStatus
+      #ImagerInterfaceStatus
+      #M30Debug
+      #DataDumper
+      #LogEventTest
+      #DataTypesTest
+      #ValidationTest
+      #AvailableTest
+    </parameters>
+    <!-- *** Information gathered at time of acquisition frame grab *** -->
+    <frame_grab_time>2019-03-22T15:17:49.094</frame_grab_time>
+    <!-- *** Information gathered at time of file save *** -->
+    <frame_save_time>2019-03-22T15:26:46.917</frame_save_time>
+    <DeviceTemperature_DeviceTemperatureSelector_Sensor>35.0</DeviceTemperature_DeviceTemperatureSelector_Sensor>
+    <DeviceTemperature_DeviceTemperatureSelector_SensorBoard>32.0</DeviceTemperature_DeviceTemperatureSelector_SensorBoard>
+    <DeviceTemperature_DeviceTemperatureSelector_MainBoard>32.5</DeviceTemperature_DeviceTemperatureSelector_MainBoard>
+    <DeviceTemperature_DeviceTemperatureSelector_ZpmSoc>38.757843017578125</DeviceTemperature_DeviceTemperatureSelector_ZpmSoc>
+    <DeviceTemperature_DeviceTemperatureSelector_Zpm1>36.125</DeviceTemperature_DeviceTemperatureSelector_Zpm1>
+    <DeviceTemperature_DeviceTemperatureSelector_Zpm2>31.78125</DeviceTemperature_DeviceTemperatureSelector_Zpm2>
+    <DeviceTemperature_DeviceTemperatureSelector_Zpm3>34.0</DeviceTemperature_DeviceTemperatureSelector_Zpm3>
+    <DeviceTemperature_DeviceTemperatureSelector_Zpm4>34.625</DeviceTemperature_DeviceTemperatureSelector_Zpm4>
+    <DeviceTemperature_DeviceTemperatureSelector_Filter>31.25</DeviceTemperature_DeviceTemperatureSelector_Filter>
+    <GevStreamSeenPacketCount>12028</GevStreamSeenPacketCount>
+    <GevStreamLostPacketCount>0</GevStreamLostPacketCount>
+    <GevStreamDeliveredPacketCount>12028</GevStreamDeliveredPacketCount>
+    <GevStreamUnavailablePacketCount>0</GevStreamUnavailablePacketCount>
+    <GevStreamDuplicatePacketCount>0</GevStreamDuplicatePacketCount>
+    <GevStreamResendCommandCount>0</GevStreamResendCommandCount>
+    <GevStreamResendPacketCount>0</GevStreamResendPacketCount>
+    <GevStreamSkippedBlockCount>0</GevStreamSkippedBlockCount>
+    <GevStreamEngineUnderrunCount>0</GevStreamEngineUnderrunCount>
+    <GevStreamDiscardedBlockCount>0</GevStreamDiscardedBlockCount>
+    <GevStreamIncompleteBlockCount>0</GevStreamIncompleteBlockCount>
+    <GevStreamOversizedBlockCount>0</GevStreamOversizedBlockCount>
+    <log type="gui" minLevel="SEVERE" truncatedLines="0"></log>
+    <log type="gui" minLevel="WARNING" truncatedLines="0"></log>
+    <log type="device" minLevel="SEVERE" truncatedLines="0">
+      2019-03-22 15:05:11.054(1380915423000)  SEVERE  Frame overtrigger has occurred, a new frame was requested before the previous one was finished.
+      2019-03-22 15:05:27.828(1397689843416)  SEVERE  Frame overtrigger has occurred, a new frame was requested before the previous one was finished.
+      2019-03-22 15:05:44.600(1414462070520)  SEVERE  Frame overtrigger has occurred, a new frame was requested before the previous one was finished.
+      2019-03-22 15:07:31.595(1521457216904)  SEVERE  Frame overtrigger has occurred, a new frame was requested before the previous one was finished.
+      2019-03-22 15:16:33.406(2063269610368)  SEVERE  Frame overtrigger has occurred, a new frame was requested before the previous one was finished.
+      2019-03-22 15:17:42.621(2132485101504)  SEVERE  Frame overtrigger has occurred, a new frame was requested before the previous one was finished.
+      2019-03-22 15:25:28.973(2598837205944)  SEVERE  Frame overtrigger has occurred, a new frame was requested before the previous one was finished.
+    </log>
+    <log type="device" minLevel="WARNING" truncatedLines="0">
+      2019-03-22 15:05:11.054(1380915423000)  SEVERE  Frame overtrigger has occurred, a new frame was requested before the previous one was finished.
+      2019-03-22 15:05:27.828(1397689843416)  SEVERE  Frame overtrigger has occurred, a new frame was requested before the previous one was finished.
+      2019-03-22 15:05:44.600(1414462070520)  SEVERE  Frame overtrigger has occurred, a new frame was requested before the previous one was finished.
+      2019-03-22 15:07:31.595(1521457216904)  SEVERE  Frame overtrigger has occurred, a new frame was requested before the previous one was finished.
+      2019-03-22 15:16:33.406(2063269610368)  SEVERE  Frame overtrigger has occurred, a new frame was requested before the previous one was finished.
+      2019-03-22 15:17:42.621(2132485101504)  SEVERE  Frame overtrigger has occurred, a new frame was requested before the previous one was finished.
+      2019-03-22 15:25:28.973(2598837205944)  SEVERE  Frame overtrigger has occurred, a new frame was requested before the previous one was finished.
+    </log>
+  </system_data>
+</icon_data_format>

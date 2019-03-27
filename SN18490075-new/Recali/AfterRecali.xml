@@ -1,0 +1,28 @@
+<icon_data_format valuetype="" name="" >
+ <parameter name="size" >30720</parameter>
+ <parameter name="version" >1</parameter>
+ <parameter name="layout" >SUBCOMPONENT</parameter>
+ <component valuetype="" name="Ranger3Range" >
+  <parameter name="size" >30720</parameter>
+  <parameter name="height" >1</parameter>
+  <worldrangetraits>
+   <parameter name="lower bound x" >-2.60462</parameter>
+   <parameter name="lower bound r" >-1.1358</parameter>
+   <parameter name="upper bound x" >84.9876</parameter>
+   <parameter name="upper bound r" >35.3561</parameter>
+   <parameter name="coordinate unit" ></parameter>
+  </worldrangetraits>
+  <subcomponent valuetype="FLOAT" name="Range" >
+   <parameter name="size" >10240</parameter>
+   <parameter name="width" >2560</parameter>
+  </subcomponent>
+  <subcomponent valuetype="FLOAT" name="Intensity" >
+   <parameter name="size" >10240</parameter>
+   <parameter name="width" >2560</parameter>
+  </subcomponent>
+  <subcomponent valuetype="FLOAT" name="X" >
+   <parameter name="size" >10240</parameter>
+   <parameter name="width" >2560</parameter>
+  </subcomponent>
+ </component>
+</icon_data_format>

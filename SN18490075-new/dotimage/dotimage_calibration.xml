@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<EasyRangerCalibration type="GeneralCalibrationLibrary" version="2">
+    <Homography>
+        <H11>-2.7955043243160766e+01</H11>
+        <H12>1.4096821694678699e+01</H12>
+        <H13>4.1344099885881967e+01</H13>
+        <H21>1.6968441111077254e-01</H21>
+        <H22>4.8538583880358431e+01</H22>
+        <H23>2.3431158330970028e+01</H23>
+        <H31>5.5141439198490303e-03</H31>
+        <H32>3.5396465260084370e-01</H32>
+        <H33>1.0000000000000000e+00</H33>
+    </Homography>
+    <Lens>
+        <centerx>1.2641101411331788e+03</centerx>
+        <centery>5.0164195309825038e+02</centery>
+        <r1>-2.4331700130464794e-03</r1>
+        <r2>1.2763692747785175e-03</r2>
+        <t1>4.7237690500320252e-04</t1>
+        <t2>9.7220350232634560e-04</t2>
+    </Lens>
+    <Scheimpflug>
+        <tilt>-8.0948872615275991e-04</tilt>
+        <roll>-3.7655774264052115e-03</roll>
+    </Scheimpflug>
+    <Metrics>
+        <coverage>0.8676963088005923</coverage>
+    </Metrics>
+</EasyRangerCalibration>
